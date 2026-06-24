@@ -19,28 +19,32 @@ function App() {
 
   const projects = [
     {
-      title: "Debre Tabor ELearn (MERN)",
-      description: "Modern electronic learning platform leveraging the MERN stack to streamline digital education and course delivery. My flagship web system.",
+      title: "Debre Tabor ELearn (MERN Stack)",
+      description: "Modern e-learning platform built with MERN stack for course management, student enrollment, and interactive learning. Features instructor dashboards, progress tracking, and multimedia content delivery.",
       tech: ["MongoDB", "Express.js", "React", "Node.js"],
-      link: "https://github.com/Zelalem515/DTU-E-Learning-Website"
+      link: "https://github.com/Zelalem515/DTU-E-Learning-Website",
+      demo: "https://dtu-elearning.vercel.app" // Add live demo URL when available
     },
     {
-      title: "Online Examination System",
-      description: "Secure, dynamic web-based testing platform built with the PERN stack featuring automated assessment handling.",
+      title: "Online Examination System (PERN Stack)",
+      description: "Comprehensive exam management platform with secure testing environment, anti-cheating mechanisms, real-time proctoring, automated grading, and detailed performance analytics for students, instructors, and administrators.",
       tech: ["PostgreSQL", "Express.js", "React", "Node.js"],
-      link: "https://github.com/Zelalem515/Exam_Management_System"
+      link: "https://github.com/Zelalem515/Exam_Management_System",
+      demo: null
     },
     {
-      title: "Debre Tabor Gebeya",
-      description: "Full-featured e-commerce platform built using Native PHP and MySQL with secure user authentication and administrative backend tools.",
-      tech: ["Native PHP", "MySQL", "JavaScript", "CSS"],
-      link: "https://github.com/Zelalem515/Debre-Tabor-Gebeya"
+      title: "Debre Tabor Gebeya (E-Commerce Platform)",
+      description: "Full-featured multi-vendor e-commerce marketplace with role-based access (admin, seller, customer), real-time inventory management, secure payment integration (Stripe & Telebirr), built-in messaging system, and comprehensive order tracking.",
+      tech: ["PHP", "MySQL", "JavaScript", "HTML5/CSS3"],
+      link: "https://github.com/Zelalem515/Debre-Tabor-Gebeya",
+      demo: null
     },
     {
-      title: "Simple ELearning System",
-      description: "Lightweight, highly accessible learning management application developed using PHP to easily distribute materials.",
-      tech: ["PHP", "HTML", "CSS", "MySQL"],
-      link: "https://github.com/Zelalem515/Learning-Management_systems"
+      title: "Learning Management System (PHP/MySQL)",
+      description: "Comprehensive LMS platform for educational institutions with course management, instructor and student dashboards, lesson materials, quiz system with automated grading, and progress tracking with role-based access control.",
+      tech: ["PHP", "MySQL", "HTML5", "CSS3"],
+      link: "https://github.com/Zelalem515/Learning-Management_systems",
+      demo: null
     }
   ];
 
@@ -203,14 +207,26 @@ function App() {
                     </span>
                   ))}
                 </div>
-                <a 
-                  href={project.link} 
-                  target="_blank" 
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline"
-                >
-                  View Source Code ↗
-                </a>
+                <div className="flex flex-col gap-2">
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline"
+                  >
+                    View Source Code ↗
+                  </a>
+                  {project.demo && (
+                    <a 
+                      href={project.demo} 
+                      target="_blank" 
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1 text-sm font-semibold text-green-600 dark:text-green-400 hover:underline"
+                    >
+                      Live Demo ↗
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}
@@ -231,7 +247,21 @@ function App() {
             href="mailto:zedo1940@gmail.com" 
             className="w-full sm:w-auto px-5 py-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/40 text-sm font-medium hover:border-blue-500 dark:hover:border-blue-400 transition flex items-center justify-center gap-2"
           >
-            📧 <span>zedo1940@gmail.com</span>
+            📧 <span>Email</span>
+          </a>
+          <a 
+            href="https://t.me/zedo1940" 
+            target="_blank" 
+            rel="noreferrer"
+            className="w-full sm:w-auto px-5 py-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/40 text-sm font-medium hover:border-blue-500 dark:hover:border-blue-400 transition flex items-center justify-center gap-2"
+          >
+            💬 <span>Telegram</span>
+          </a>
+          <a 
+            href="tel:+251919407548" 
+            className="w-full sm:w-auto px-5 py-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/40 text-sm font-medium hover:border-blue-500 dark:hover:border-blue-400 transition flex items-center justify-center gap-2"
+          >
+            📱 <span>Phone</span>
           </a>
           <a 
             href="https://github.com/Zelalem515" 
@@ -239,7 +269,7 @@ function App() {
             rel="noreferrer"
             className="w-full sm:w-auto px-5 py-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/40 text-sm font-medium hover:border-blue-500 dark:hover:border-blue-400 transition flex items-center justify-center gap-2"
           >
-            💻 <span>GitHub Profile</span>
+            💻 <span>GitHub</span>
           </a>
           <a 
             href="https://www.linkedin.com/in/zelalem-birhan-0590853b3" 
@@ -247,7 +277,7 @@ function App() {
             rel="noreferrer"
             className="w-full sm:w-auto px-5 py-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800/40 text-sm font-medium hover:border-blue-500 dark:hover:border-blue-400 transition flex items-center justify-center gap-2"
           >
-            👥 <span>LinkedIn Network</span>
+            👥 <span>LinkedIn</span>
           </a>
         </div>
       </section>

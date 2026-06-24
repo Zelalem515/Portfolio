@@ -32,21 +32,29 @@ I'm a software engineer with a Bachelor of Science in Information Technology fro
 
 ## 💼 Featured Projects
 
-1. **Debre Tabor ELearn (MERN Stack)**
-   - Modern e-learning platform with course management and student engagement
-   - Technologies: MongoDB, Express.js, React, Node.js
+### 1. **Debre Tabor ELearn (MERN Stack)**
+   Modern e-learning platform for educational institutions with comprehensive course management, student enrollment, instructor dashboards, multimedia content delivery, lesson tracking, and interactive learning features. Built as a flagship full-stack system.
+   - **Technologies**: MongoDB, Express.js, React, Node.js
+   - **Live Demo**: [Coming Soon]
+   - **Repository**: [View Code](https://github.com/Zelalem515/DTU-E-Learning-Website)
 
-2. **Online Examination System (PERN Stack)**
-   - Secure, dynamic testing platform with automated assessment
-   - Technologies: PostgreSQL, Express.js, React, Node.js
+### 2. **Online Examination System (PERN Stack)**
+   Comprehensive exam management platform with security-first architecture. Features anti-cheating mechanisms (copy-paste prevention, keyboard shortcuts blocking), real-time proctoring, automated grading, 30-minute exam timer with auto-save, performance analytics, and role-based dashboards for students, instructors, and administrators.
+   - **Technologies**: PostgreSQL, Express.js, React, Node.js
+   - **Key Features**: Secure exam environment, JWT authentication, session locking, bulk student upload via CSV
+   - **Repository**: [View Code](https://github.com/Zelalem515/Exam_Management_System)
 
-3. **Debre Tabor Gebeya (PHP/MySQL)**
-   - Full-featured e-commerce platform with user authentication and admin dashboard
-   - Technologies: Native PHP, MySQL, JavaScript, CSS
+### 3. **Debre Tabor Gebeya (E-Commerce Platform)**
+   Full-featured multi-vendor e-commerce marketplace connecting local sellers with customers. Implements role-based access (admin, seller, customer), real-time inventory management with low-stock alerts, secure payment integration (Stripe & Telebirr), built-in messaging system for buyer-seller communication, order tracking, and comprehensive admin analytics.
+   - **Technologies**: PHP, MySQL, JavaScript, HTML5/CSS3
+   - **Key Features**: Multi-role system, real-time stock tracking, secure payments, messaging, order management
+   - **Repository**: [View Code](https://github.com/Zelalem515/Debre-Tabor-Gebeya)
 
-4. **Learning Management System (PHP/MySQL)**
-   - Lightweight LMS for course material distribution and student tracking
-   - Technologies: PHP, HTML, CSS, MySQL
+### 4. **Learning Management System (PHP/MySQL)**
+   Professional LMS platform designed for educational institutions. Provides complete course management, role-based dashboards (admin, instructor, student), lesson materials with multimedia support, automated quiz system with scoring, progress tracking, and secure authentication with bcrypt password hashing.
+   - **Technologies**: PHP, MySQL, HTML5, CSS3
+   - **Key Features**: Role-based access control, course management, quiz system, progress tracking, student enrollment
+   - **Repository**: [View Code](https://github.com/Zelalem515/Learning-Management_systems)
 
 ## 🛠️ Tech Stack
 
@@ -117,6 +125,8 @@ npm run preview
 ## 🔗 Professional Links
 
 - **Email**: [zedo1940@gmail.com](mailto:zedo1940@gmail.com)
+- **Telegram**: [@zedo1940](https://t.me/zedo1940)
+- **Phone**: [+251 919 407 548](tel:+251919407548)
 - **GitHub**: [github.com/Zelalem515](https://github.com/Zelalem515)
 - **LinkedIn**: [linkedin.com/in/zelalem-birhan](https://www.linkedin.com/in/zelalem-birhan-0590853b3)
 
