@@ -23,7 +23,7 @@ function App() {
       description: "Modern e-learning platform built with MERN stack for course management, student enrollment, and interactive learning. Features instructor dashboards, progress tracking, and multimedia content delivery.",
       tech: ["MongoDB", "Express.js", "React", "Node.js"],
       link: "https://github.com/Zelalem515/DTU-E-Learning-Website",
-      demo: null
+      demo: "https://dtu-e-learning-website.vercel.app"
     },
     {
       title: "Online Examination System (PERN Stack)",

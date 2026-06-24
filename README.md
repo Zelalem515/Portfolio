@@ -35,7 +35,7 @@ I'm a software engineer with a Bachelor of Science in Information Technology fro
 ### 1. **Debre Tabor ELearn (MERN Stack)**
    Modern e-learning platform for educational institutions with comprehensive course management, student enrollment, instructor dashboards, multimedia content delivery, lesson tracking, and interactive learning features. Built as a flagship full-stack system.
    - **Technologies**: MongoDB, Express.js, React, Node.js
-   - **Live Demo**: [Coming Soon]
+   - **Live Demo**: [Visit Live App](https://dtu-e-learning-website.vercel.app)
    - **Repository**: [View Code](https://github.com/Zelalem515/DTU-E-Learning-Website)
 
 ### 2. **Online Examination System (PERN Stack)**
