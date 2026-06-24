@@ -6,7 +6,7 @@ import cvFile from './assets/cv.pdf'
 import certFile from './assets/certificates.pdf'
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -81,8 +81,8 @@ function App() {
         </div>
       </header>
 
-      {/* MOBILE NAV BAR FOR SMALL SCREENS */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-t border-slate-200 dark:border-slate-800 py-3 flex justify-around text-xs font-semibold shadow-lg">
+      {/* MOBILE NAV BAR FOR SMALL SCREENS - TOP POSITION */}
+      <div className="md:hidden fixed top-16 left-0 right-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 py-3 flex justify-around text-xs font-semibold shadow-lg">
         <a href="#home" className="flex flex-col items-center gap-1 hover:text-blue-500">🏠 <span>Home</span></a>
         <a href="#about" className="flex flex-col items-center gap-1 hover:text-blue-500">📄 <span>About</span></a>
         <a href="#projects" className="flex flex-col items-center gap-1 hover:text-blue-500">💻 <span>Projects</span></a>
@@ -90,7 +90,7 @@ function App() {
       </div>
 
       {/* HOME / HERO SECTION */}
-      <section id="home" className="max-w-5xl mx-auto px-4 py-16 sm:py-24 flex flex-col-reverse md:flex-row items-center justify-between gap-12 scroll-mt-20">
+      <section id="home" className="max-w-5xl mx-auto px-4 py-16 sm:py-24 md:py-16 flex flex-col-reverse md:flex-row items-center justify-between gap-12 scroll-mt-20 md:pt-0 pt-20">
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-slate-900 dark:text-white">
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Zelalem Birhan</span>
